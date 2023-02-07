@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "name": "Sunny Beach",
+        "progress": "70%"
+    },
+    {
+        "id": "2",
+        "name": "Lorem Beach",
+        "progress": "50%"
+    },
+    {
+        "id": "3",
+        "name": "Swag Beach",
+        "progress": "40%"
+    },
+    {
+        "id": "4",
+        "name": "White Beach",
+        "progress": "80%"
+    },
+    {
+        "id": "5",
+        "name": "Sweaty Beach",
+        "progress": "69%"
+    },
+    {
+        "id": "6",
+        "name": "Nidalee Beach",
+        "progress": "70%"
+    },
+    {
+        "id": "7",
+        "name": "Perfect Beach",
+        "progress": "20%"
+    },
+    {
+        "id": "8",
+        "name": "Summoners Beach",
+        "progress": "90%"
+    },
+    {
+        "id": "9",
+        "name": "City Beach",
+        "progress": "20%"
+    },
+    {
+        "id": "10",
+        "name": "Richard's Beach",
+        "progress": "100%"
+    }
+]

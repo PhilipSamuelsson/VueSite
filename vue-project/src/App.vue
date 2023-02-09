@@ -8,6 +8,8 @@
     import beaches from '../public/beaches.json'
 </script>
 
+<script></script>
+
 <template>
     <RouterView />
 </template>

@@ -19,6 +19,9 @@
                 <div class="navbar-nav">
                     <RouterLink class="nav-link" to="/">Home</RouterLink>
                     <RouterLink class="nav-link" to="/about">About</RouterLink>
+                    <RouterLink class="nav-link" to="/ToDo"
+                        >Counter (VueX)</RouterLink
+                    >
                 </div>
             </div>
         </div>

@@ -12,6 +12,11 @@
         <input type="button" value="+" @click="$store.commit('increase')" />
         <input type="button" value="-" @click="$store.commit('decrease')" />
     </div>
+    <div>
+        <p>
+            This is an address parameter: <b> {{ $route.params.id }}</b>
+        </p>
+    </div>
 </template>
 
 <style scoped>

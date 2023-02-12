@@ -12,4 +12,4 @@ const mutations = {
         counter: 0
     }
 
-export default createStore({ mutations, state, strict: true })
+export default createStore({ mutations, state, strict: true }) 

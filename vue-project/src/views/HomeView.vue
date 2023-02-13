@@ -4,6 +4,7 @@
     import Card from '../components/Card.vue'
     import Footer from '../components/Footer.vue'
     import Form from '../components/Form.vue'
+    import Dropdown from '../components/Dropdown.vue'
 </script>
 
 <template>
@@ -17,7 +18,12 @@ the one you lean on when you and her are at each others throats"
     ></Card>
     <h2>{{ message }}</h2>
     <div class="formSection">
-        <Form @inputValue="test"></Form>
+        <Form></Form>
+    </div>
+    <div>Custom event</div>
+    <div>
+        <Dropdown @update:option="optionUpdate"></Dropdown>
+        <h3>{{ dropdownResult }}</h3>
     </div>
     <Footer></Footer>
 </template>
@@ -68,13 +74,13 @@ the one you lean on when you and her are at each others throats"
             return {
                 message: 'Contact us',
                 inputName: '',
-                inputValue: ''
+                dropdownResult: ''
             }
         },
         // Not finished ****************************
         methods: {
-            test(value) {
-                this.inputName = value
+            optionUpdate(value) {
+                this.dropdownResult = value
             }
         }
     }

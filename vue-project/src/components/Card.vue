@@ -16,7 +16,7 @@
                 <div class="card-body">
                     <h5 class="card-title">{{ title }}</h5>
                     <p class="card-text">{{ content }}</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go nowhere</a>
                 </div>
             </div>
         </div>

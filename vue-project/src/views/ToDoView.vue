@@ -1,5 +1,6 @@
 <script setup>
     import NavBar from '../components/NavBar.vue'
+    import Watcher from '../components/Watcher.vue'
 </script>
 
 <script></script>
@@ -17,6 +18,7 @@
             This is an address parameter: <b> {{ $route.params.id }}</b>
         </p>
     </div>
+    <Watcher></Watcher>
 </template>
 
 <style scoped>

@@ -4,7 +4,7 @@
         <img src="../assets/HeroImage.jpg" alt="Beach" />
         <div class="hero-text">
             Help us save our planet
-            <button type="button" class="btn btn-primary">Sign Up!</button>
+            <button type="button" class="btn btn-primary">Placeholder!</button>
         </div>
     </div>
 </template>

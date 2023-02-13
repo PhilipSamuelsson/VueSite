@@ -7,16 +7,10 @@
                 inputValue: ''
             }
         },
-        emits: {
-            inputName: String,
-            inputValue: String
-        },
-        watch: {
-            inputName(oldName, newName) {
-                this.$emit('inputName', this.inputName)
-            },
-            inputValue(oldValue, newValue) {
-                this.$emit('inputValue', this.inputValue)
+        emits: ['inputValue'],
+        methods: {
+            sendCustomEvent() {
+                this.$emit('input-value', this.inputValue)
             }
         }
     }
@@ -44,7 +38,9 @@
                     rows="3"
                 ></textarea>
             </div>
-            <button class="btn btn-primary">Submit</button>
+            <button @click.prevent="sendCustomEvent" class="btn btn-primary">
+                This button does not work
+            </button>
         </form>
     </div>
     <div v-if="(inputValue === '') | (inputValue === null)" class="preview">
